@@ -1,0 +1,13 @@
+name = "jackey-warden"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# KV Namespace for storing vault data
+[[kv_namespaces]]
+binding = "VAULT"
+id = "e0783812014246fdaf35124a8d7ff6af"
+
+# R2 Bucket for storing attachments
+[[r2_buckets]]
+binding = "ATTACHMENTS"
+bucket_name = "jackey-warden"
